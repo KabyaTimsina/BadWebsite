@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://www.freepnglogos.com/uploads/mercedes-logo-png/mercedes-logo-mercedes-benz-logo-png-transparent-svg-vector-bie-13.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: century Gothic;
+}
+.box{
+    width: 320px;
+    height: 380px;
+    background-color: #000;
+    color: #fff;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    padding: 70px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.avtar{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(40% -1000px);
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 22px;
+}
+
+.box input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+.box input[type="text"],input[type="password"]
+
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background-color: #fb2525;
+    font-size: 18px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+
+}
+.box input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: #ffc107;
+    color: #000;
+}
+.box a gg{
+    text-decoration: none;
+    font-size:  12px;
+    line-height: 20px;
+    color: darkgrey;
+    transition: 0.4s ease;
+}
+.boc a:hover{
+    color: #ffc107;
+}
+
+.ankor{
+    position: absolute;
+    left: 37%;
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
